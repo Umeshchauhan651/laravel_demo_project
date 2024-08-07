@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 //         return "<h1>Id not found</h1>";
 //     }
 // });
+//
 
 Route::get('/', function () {
     return view('welcome');
